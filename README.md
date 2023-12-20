@@ -1,6 +1,6 @@
-# [AAAI 2024] Data Roaming and Early Fusion for Composed Image Retrieval
+# [AAAI 2024] Data Roaming and Quality Assessment for Composed Image Retrieval
 #### [[Project Page](https://vision.huji.ac.il/lasco/) | [Paper (arxiv)](https://arxiv.org/abs/2303.09429)] #### 
-Welcome to the official repository for the AAAI 2024 paper, "Data Roaming and Early Fusion for Composed Image Retrieval"!
+Welcome to the official repository for the AAAI 2024 paper, "Data Roaming and Quality Assessment for Composed Image Retrieval"!
 ## Table of Contents
 1. [Abstract](#abstract)
 2. [LaSCo Dataset](#lasco-dataset)
@@ -10,7 +10,8 @@ Welcome to the official repository for the AAAI 2024 paper, "Data Roaming and Ea
 6. [License](#license)
 
 ## Abstract
->We study the task of Composed Image Retrieval (CoIR), where a query is composed of two modalities, image and text, extending the user's expression ability. Previous methods typically address this task by a separate encoding of each query modality, followed by late fusion of the extracted features. In this paper, we propose a new approach, Cross-Attention driven Shift Encoder (CASE), employing early fusion between modalities through a cross-attention module with an additional auxiliary task. We show that our method outperforms the existing state-of-the-art, on established benchmarks (FashionIQ and CIRR) by a large margin. However, CoIR datasets are a few orders of magnitude smaller compared to other vision and language (V&L) datasets, and some suffer from serious flaws (e.g., queries with a redundant modality). We address these shortcomings by introducing Large Scale Composed Image Retrieval (LaSCo), a new CoIR dataset x10 times larger than current ones. Pre-training on LaSCo yields a further performance boost. We further suggest a new analysis of CoIR datasets and methods, for detecting modality redundancy or necessity, in queries. 
+>The task of Composed Image Retrieval (CoIR) involves queries that combine image and text modalities, allowing users to express their intent more effectively. However, current CoIR datasets are orders of magnitude smaller compared to other vision and language (V&L) datasets. Additionally, some of these datasets have noticeable issues, such as queries containing redundant modalities. To address these shortcomings, we introduce the Large Scale Composed Image Retrieval (LaSCo) dataset, a new CoIR dataset which is ten times larger than existing ones. Pre-training on our LaSCo, shows a noteworthy improvement in performance, even in zero-shot. Furthermore, we propose a new approach for analyzing CoIR datasets and methods, which detects modality redundancy or necessity, in queries.
+We also introduce a new CoIR baseline, the Cross-Attention driven Shift Encoder (CASE). This baseline allows for early fusion of modalities using a cross-attention module and employs an additional auxiliary task during training. Our experiments demonstrate that this new baseline outperforms the current state-of-the-art methods on established benchmarks like FashionIQ and CIRR. 
 
 ---
 ## LaSCo Dataset
