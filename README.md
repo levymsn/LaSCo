@@ -19,7 +19,7 @@ LaSCo contains 389,305 queries on 121,479 natural images.
 
 ![LaSCo examples](images/lasco_ex.png) 
 
-In this study, we introduce a new large scale dataset for CoIR, dubbed LaSCo (Large Scale Composed Image Retrieval dataset). To construct it with minimal human effort, we employ a simple and effective methodology to rephrase labels from an existing large scale VQA dataset into a form suited for CoIR. LaSCo contains an open and broad domain of natural images and rich text. Compared to CIRR, it has ֳ—10 more queries, ֳ—2 more unique tokens and ֳ—17 more corpus images. LaSCo further shows a significantly smaller bias towards a single modality for retrieval. Furthermore, pre-training our CASE model on LaSCo boosts performance on CIRR dataset, even at zero shot. VQA 2.0 dataset to create LaSCo with minimal human effort. 
+In this study, we introduce a new large scale dataset for CoIR, dubbed LaSCo (Large Scale Composed Image Retrieval dataset). To construct it with minimal human effort, we employ a simple and effective methodology to rephrase labels from an existing large scale VQA dataset into a form suited for CoIR. LaSCo contains an open and broad domain of natural images and rich text. Compared to CIRR, it has x10 more queries, x—2 more unique tokens and x17 more corpus images. LaSCo further shows a significantly smaller bias towards a single modality for retrieval. Furthermore, pre-training our CASE model on LaSCo boosts performance on CIRR dataset, even at zero shot. VQA 2.0 dataset to create LaSCo with minimal human effort. 
 
 ![datasets](images/datasets.png) 
 
