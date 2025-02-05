@@ -1,5 +1,5 @@
 # [AAAI 2024] Data Roaming and Quality Assessment for Composed Image Retrieval
-#### [[Project Page](https://vision.huji.ac.il/lasco/) | [Paper (arxiv)](https://arxiv.org/abs/2303.09429)] #### 
+#### [[Project Page](https://levymsn.github.io/LaSCo) | [Paper (arxiv)](https://arxiv.org/abs/2303.09429)] #### 
 Welcome to the official repository for the AAAI 2024 paper, "Data Roaming and Quality Assessment for Composed Image Retrieval"!
 ## Table of Contents
 1. [Abstract](#abstract)
